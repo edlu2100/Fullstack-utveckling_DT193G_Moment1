@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body class="antialiased ">
+    <nav class="flex flex-wrap items-center justify-between w-full py-4 mt-3 md:py-0 px-4 text-lg text-gray-500 bg-white md:mt-5">
+        <div class="flex w-full md:w-auto justify-between ">
+            <a class="ml-5 mt-2 text-black text-xl font-medium md:w-auto md:mt-4 " href="index.html ">
+                Moment 1 - CSS-Ramverk
+            </a>
+            <svg xmlns="<http://www.w3.org/2000/svg>" id="menu-button" class="h-6 w-6 mr-5 mt-3 cursor-pointer md:hidden block" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </div>
+        <div class="hidden w-full ml-5 md:ml-0 md:flex md:items-center md:w-auto md:mt-2" id="menu">
+            <ul class="text-base text-gray-700 pt-4 md:flex md:justify-between md:pt-2 md:pr-6">
+                <li>
+                    <a class="md:p-1 md:pl-3 py-2 block hover:text-black" href="index.html">Startsida</a>
+                </li>
+                <li>
+                    <a class="md:p-1 md:pl-3 py-2 block hover:text-black" href="bootstrap.html">Bootstrap</a>
+                </li>
+                <li>
+                    <a class="md:p-1 md:pl-3 py-2 block text-black" href="tailwind.html">Tailwind</a>
+                </li>
+                <li>
+                    <a class="md:p-1 md:pl-3 py-2 block hover:text-black" href="pub.html">Publicering</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <h1 class="text-center text-3xl mb-2 mt-10">Vad är Tailwind?</h1>
+    <p class="w-4/5 md:w-3/5 lg:w-2/5 m-auto">Tailwind CSS är ett populärt CSS-ramverk som används för att utveckla webbgränssnitt. Det skiljer sig från många andra CSS-ramverk genom att det förespråkar en "utility-first" metodik, vilket innebär att det tillhandahåller ett omfattande uppsättning
+        CSS-klasser som kan användas direkt i HTML-markupen för att stila webbelement.</p>
+
+    <h2 class="text-center text-2xl mt-5 mb-2">Vad tycker jag om Tailwind?</h2>
+    <p class="w-4/5 md:w-3/5 lg:w-2/5 m-auto ">
+        Jag tycker att Tailwind är riktigt bra. Den har funktioner som jag saknade på Bootstrap. Det är lätt att sätta avstånd och bredd. Som jag skrev om Bootstrap så saknade jag större marginaler, vilket det finns här. Här går det långt över vad man behöver.
+        Det negativa är att det krävs lite att ladda ner via npm men sen fungerar det hur bra som hellst. Kommer verkligen att använda det i framtiden. Känns som att allting föll på plats. Någonting man saknat under alla projekt vi gjort. Känns som att
+        det börjar bli på riktigt, att det blir mer avancerat och snyggt.
+    </p>
+    <a href="https://v1.tailwindcss.com/"><button class="bg-transparent hover:bg-gray-500 text-gray-500 font-semibold hover:text-white py-2 px-4 border border-gray-500 hover:border-transparent rounded block m-auto mt-5 ">Läs mer om Tailwind</button></a>
+    <h2 class="text-center text-2xl mb-3 mt-5">Tabell</h2>
+    <table class="table-auto w-4/5 md:w-3/5 lg:w-2/5 m-auto mb-5">
+        <thead class="bg-black text-white text-left">
+            <tr>
+                <th class="md:px-6 md:py-3">Förnamn</th>
+                <th class="md:px-6 md:py-3">Efternamn</th>
+                <th class="md:px-6 md:py-3">Ålder</th>
+                <th class="md:px-6 md:py-3">Kön</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="border-b">
+                <td class="md:px-6 md:py-3">John</td>
+                <td class="md:px-6 md:py-3">Doe</td>
+                <td class="md:px-6 md:py-3">30</td>
+                <td class="md:px-6 md:py-3">Man</td>
+            </tr>
+            <tr class="border-b">
+                <td class="md:px-6 md:py-3">Emil</td>
+                <td class="md:px-6 md:py-3">Johnsson</td>
+                <td class="md:px-6 md:py-3">27</td>
+                <td class="md:px-6 md:py-3">Man</td>
+            </tr>
+            <tr class="border-b">
+                <td class="md:px-6 md:py-3">Emma</td>
+                <td class="md:px-6 md:py-3">Larsson</td>
+                <td class="md:px-6 md:py-3">28</td>
+                <td class="md:px-6 md:py-3">Kvinna</td>
+            </tr>
+            <tr class="border-b">
+                <td class="md:px-6 md:py-3">Sandra</td>
+                <td class="md:px-6 md:py-3">Andersson</td>
+                <td class="md:px-6 md:py-3">19</td>
+                <td class="md:px-6 md:py-3">Kvinna</td>
+            </tr>
+            <tr class="border-b">
+                <td class="md:px-6 md:py-3">Lars</td>
+                <td class="md:px-6 md:py-3">Johansson</td>
+                <td class="md:px-6 md:py-3">56</td>
+                <td class="md:px-6 md:py-3">Man</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form class=" w-4/5 md:w-3/5 lg:w-2/5 m-auto mt-5 mb-5" action="#">
+        <div class="">
+            <label class="block" for="fname">Förnamn:</label>
+            <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-5" id="fname" placeholder="Förnamn..." required>
+        </div>
+        <div class="">
+            <label class="block" for="lname">Efternamn:</label>
+            <input type="text" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-5" id="lname" placeholder="Efternamn..." required>
+        </div>
+        <div class="">
+            <label class="block" for="lname">Ålder:</label>
+            <input type="number" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-5" id="lname" placeholder="Ålder..." required>
+        </div>
+        <div class="">
+            <label class="block" for="exampleFormControlSelect1">Kön:</label>
+            <select class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-5" id="exampleFormControlSelect1" required>
+                <option value="">Klicka för att välja kön</option>
+                <option value="1">Man</option>
+                <option value="2">Kvinna</option>
+                <option value="3">Annat</option>
+
+            </select>
+        </div>
+
+        <div class="">
+            <label class="block" for="comment">Kommentar:</label>
+            <textarea class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline mb-5" rows="4" id="comment" name="text"></textarea>
+        </div>
+        <div class="">
+            <div class="mb-3">
+                <input class="" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="" for="invalidCheck2">
+                    Försäkrar att informationen stämmer
+                </label>
+            </div>
+        </div>
+        <button type="submit" class="bg-transparent hover:bg-blue-500 text-blue-700 font-semibold hover:text-white py-2 px-4 border border-blue-500 hover:border-transparent rounded block m-auto mt-5 ">Submit</button>
+    </form>
+
+    <footer class="bg-footergray w-full mt-5 p-5">
+        <p class="text-center text-white mb-3">Den här undersidan är skapat med Tailwind</p>
+        <p class="text-center text-white">© All right reserved | Edlu2100</p>
+    </footer>
+
+
+    <script>
+        const button = document.querySelector('#menu-button'); // Hamburger Icon
+        const menu = document.querySelector('#menu'); // Menu
+
+        button.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+
+</html>

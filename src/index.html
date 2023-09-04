@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="m-4">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Moment 1 - CSS-Ramverk </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link active">Startsida</a>
+                        <a href="bootstrap.html" class="nav-item nav-link">Bootstrap</a>
+                        <a href="tailwind.html" class="nav-item nav-link">Tailwind</a>
+                        <a href="pub.html" class="nav-item nav-link">Publicering</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <h1 class="centre mt-5 mb-5">CSS-Ramverk</h1>
+    <p class="col-10 col-md-8 col-lg-6">
+        I den här uppgiften, Moment 1 - CSS Ramverk, ska två olika undersidor med olika ramverk skapas. Det ska även finnas en startsida med innehåll om uppgiften samt en sida om hur man publicerat uppgiften. På undersidorna ska det finnas information om ramverket
+        plus länk till deras sida, en tabell med minst fyra fält och fem rader data, samt ett formulär.
+    </p>
+    <p class="col-10 col-md-8 col-lg-6">
+        I den här uppgiften har jag valt att använda mig av Bootstrap samt Tailwind.
+    </p>
+    <div class="card-deck d-flex mb-5 mt-5 col-10 cards">
+        <div class="card m-2">
+            <img class="card-img-top" src="images/bootstrap.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Bootstrap</h4>
+                <p class="card-text">
+                    Bootstrap är de vanligaste ramverket fär frontend-utveckling. Bootstrap är ett gratis ramverk vilket effektiviserar kodningen i HTML, JavaScript samt CSS.
+                </p>
+                <a href="bootstrap.html" class="btn btn-primary">Gå till sidan om Bootstrap</a>
+            </div>
+        </div>
+        <div class="card m-2">
+            <img class="card-img-top" src="images/tailwind.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Tailwind</h4>
+                <p class="card-text">
+                    Tailwind CSS är ett populärt CSS-ramverk som används för att utveckla webbgränssnitt. Ramverket tillhandahåller CSS-klasser som kan användas direkt i HTML-markupen för att stila webbelement.
+                </p>
+                <a href="tailwind.html" class="btn btn-primary">Gå till sidan om Tailwind</a>
+            </div>
+        </div>
+        <div class="card m-2">
+            <img class="card-img-top" src="images/pub.jpg" alt="Card image cap">
+            <div class="card-body">
+                <h4 class="card-title">Publicering</h4>
+                <p class="card-text">
+                    På den här sidan kommer information om hur uppgiften har publicerats att diskuteras. Tillvägagångssättet att använda sig av ett nytt publiceringsverktyg kommer att beskrivas.
+                </p>
+                <a href="pub.html" class="btn btn-primary">Gå till sidan om publicering</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="centre">
+
+        <p>Den här undersidan är skapat med Bootstrap</p>
+        <p>© All right reserved | Edlu2100</p>
+    </footer>
+</body>
+
+
+</html>

@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer {
+    background-color: rgb(56, 56, 56);
+    color: white;
+    margin-top: auto;
+    padding-top: 1em;
+}
+
+.centre {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+h3 {
+    font-size: 1.2em
+}
+
+p {
+    width: auto;
+    margin-inline: auto;
+}
+
+.info {
+    margin-top: 5em;
+}
+
+.btn {
+    display: block;
+    margin-inline: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.width {
+    margin-inline: auto;
+    width: 90%;
+}
+
+.cards {
+    margin-inline: auto;
+}
+
+.card {
+    max-width: 31.5%;
+}
+
+@media screen and (min-width: 780px) {
+    .width {
+        width: 60%;
+    }
+    .cards {
+        flex-direction: row;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .width {
+        width: 40%;
+    }
+}
+
+.check2 {
+    margin-left: 1em;
+}

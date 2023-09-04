@@ -1,0 +1,23 @@
+{
+    "name": "fullstack-utveckling_dt193g_moment1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "tailwind": "tailwindcss -i ./src/input.css -o ./src/main.css --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/edlu2100/Fullstack-utveckling_DT193G_Moment1.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/edlu2100/Fullstack-utveckling_DT193G_Moment1/issues"
+    },
+    "homepage": "https://github.com/edlu2100/Fullstack-utveckling_DT193G_Moment1#readme",
+    "devDependencies": {
+        "tailwindcss": "^3.3.3"
+    }
+}

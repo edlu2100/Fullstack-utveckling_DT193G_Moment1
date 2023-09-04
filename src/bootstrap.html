@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="m-4">
+        <nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+                <a href="index.html" class="navbar-brand">Moment 1 - CSS-Ramverk </a>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                    <div class="navbar-nav ms-auto">
+                        <a href="index.html" class="nav-item nav-link ">Startsida</a>
+                        <a href="bootstrap.html" class="nav-item nav-link active">Bootstrap</a>
+                        <a href="tailwind.html" class="nav-item nav-link">Tailwind</a>
+                        <a href="pub.html" class="nav-item nav-link">Publicering</a>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="">
+        <h1 class="centre mt-3">Vad är Bootstrap?</h1>
+        <p class="col-10 col-md-8 col-lg-6">
+            Bootstrap är ett gratis ramverk för frontend-utveckling. Bootstrap har öppen källkod, vilket betyder att alla kan ta del av det och skapa webbplatser och appar. Bootrsp hjälper att skapa responsiva webbplatser med en uppsättning av malldesigner som är
+            färdigskapade. Bootstrap innehåller grunderna och utvecklaren behöver endast infoga koden för att ta del av funktionaliteten. De är byggt för att underlätta och effektivisera kodningen i HTML, CSS och JavaScript.
+        </p>
+        <h2 class="centre mt-5">Vad tycker jag om Bootstrap?</h2>
+        <p class="col-10 col-md-8 col-lg-6 mt-3">
+            Jag anser att Bootstrap är ett bra ramverk. Jag gillar verkligen hur lätt det var att göra formulär och tabeller. Jag tycker även att det var väldigt lätt att rada upp saker horisontellt och ändra storlek beroende på skärmstorleken. Däremot tycker jag
+            att de saknas vissa egenskaper. Jag tycker det slulle vara lättare att sätta width på formuläret och tabellen. Jag testade med col men det fungerade imte- Det kanske finns nån funktionallitet som jag missat men jag fick istället style den
+            med css. Synd då jag anser att det var lätt att jobba med col-#.Sen anser jag att att det hade kunnat finnas några extra steg när man sätter marginaler, inte bara till 5. Den gör inte så stor skillnad så jag ahde uppskattat om det fanns till
+            10. Annars tycker jag Bootstrap var enkelt och snabbt att arbeta med.
+
+        </p>
+
+        <a href="https://getbootstrap.com/"><button class="btn btn-outline-secondary mb-5">Läs mer om
+            Bootstrap</button></a>
+        <h2 class="centre mt-5">Tabell</h2>
+        <table class=" table width table-hover">
+            <thead class="table-dark">
+                <tr>
+                    <th>Förnamn</th>
+                    <th>Efternamn</th>
+                    <th>Ålder</th>
+                    <th>Kön</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>30</td>
+                    <td>Man</td>
+                </tr>
+                <tr>
+                    <td>Emil</td>
+                    <td>Johnsson</td>
+                    <td>27</td>
+                    <td>Man</td>
+                </tr>
+                <tr>
+                    <td>Emma</td>
+                    <td>Larsson</td>
+                    <td>28</td>
+                    <td>Kvinna</td>
+                </tr>
+                <tr>
+                    <td>Sandra</td>
+                    <td>Andersson</td>
+                    <td>19</td>
+                    <td>Kvinna</td>
+                </tr>
+                <tr>
+                    <td>Lars</td>
+                    <td>Johansson</td>
+                    <td>56</td>
+                    <td>Man</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <form class="form width mt-5" action="#">
+            <div class="form-group mb-3 mt-3">
+                <label for="fname">Förnamn:</label>
+                <input type="text" class="form-control" id="fname" placeholder="Förnamn..." required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="lname">Efternamn:</label>
+                <input type="text" class="form-control" id="lname" placeholder="Efternamn..." required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="lname">Ålder:</label>
+                <input type="number" class="form-control" id="lname" placeholder="Ålder..." required>
+            </div>
+            <div class="form-group mb-3">
+                <label for="exampleFormControlSelect1">Kön:</label>
+                <select class="form-control" id="exampleFormControlSelect1" required>
+                    <option value="">Klicka för att välja kön</option>
+                    <option value="1">Man</option>
+                    <option value="2">Kvinna</option>
+                    <option value="3">Annat</option>
+
+                </select>
+            </div>
+
+            <div class="form-group mb-3">
+                <label for="comment">Kommentar:</label>
+                <textarea class="form-control" rows="4" id="comment" name="text"></textarea>
+            </div>
+            <div class="form-group mt-4">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                    <label class="form-check-label" for="invalidCheck2">
+                        Försäkrar att informationen stämmer
+                    </label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-outline-primary mt-5 mb-5">Submit</button>
+        </form>
+
+    </div>
+
+    <footer class="centre">
+
+        <p>Den här undersidan är skapat med Bootstrap</p>
+        <p>© All right reserved | Edlu2100</p>
+    </footer>
+
+</body>
+
+
+</html>
